@@ -3,6 +3,13 @@ gateways:
         connection:
             type: duckdb
             database: db.db
+    remote:
+        connection:
+            type: bigquery
+            project: my-project
+            dataset: my-dataset
+            location: US
+            credentials: /path/to/credentials.json
 
 default_gateway: local
 
