@@ -1,0 +1,14 @@
+# Define external tables
+
+- name: mahabot-390000.mahaffey.leaderboard
+  description: Contains one row per member per scraping date, with the corresponding beer count on that date.
+  columns:
+    member_name: string
+    beer_count: integer
+    inserted_at: timestamp
+- name: mahabot-390000.mahaffey.club_members
+  description: Contains one row per member per scraping date, with the member's name and member number.
+  columns:
+    member_number: integer
+    member_name: string
+    inserted_at: timestamp

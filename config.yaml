@@ -6,10 +6,9 @@ gateways:
     remote:
         connection:
             type: bigquery
-            project: my-project
-            dataset: my-dataset
-            location: US
-            credentials: /path/to/credentials.json
+            method: service-account
+            project: mahabot-390000
+            keyfile: 'resources/corner-beers-390000-9bf2212e50c1.json'
 
 default_gateway: local
 
