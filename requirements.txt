@@ -61,8 +61,8 @@ rsa==4.9
 ruamel.yaml==0.18.5
 ruamel.yaml.clib==0.2.8
 six==1.16.0
-sqlglot==19.0.3
-sqlmesh==0.48.0
+sqlglot==20.3.0
+sqlmesh==0.62.1
 stack-data==0.6.3
 traitlets==5.13.0
 typing_extensions==4.8.0
